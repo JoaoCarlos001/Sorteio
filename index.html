@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sorteio</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <h1>Página de Sorteio !</h1>
+
+            <div class="input-btn">
+                <input type="text" id="input" placeholder="Adicione um participante">
+                <button onclick="adicionar()" id="add">+</button>
+            </div>
+
+            <button onclick="sortear()" id="btn">Sortear</button>
+
+            <select id="lista" size="10">
+                <option></option>
+            </select>
+
+        </div>
+
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
